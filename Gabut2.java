@@ -6,7 +6,7 @@ public class Gabut2 {
       Scanner in = new Scanner (System.in);
         int Input;
 
-        System.out.print("Apakah kamu anak ILKOM? (Ketika 1 jika iya, 2 jika bukan): ");
+        System.out.print("Apakah kamu anak ILKOM? (Ketik 1 jika iya, 2 jika bukan): ");
         Input = in.nextInt();
         if (Input <= 1) { System.out.println("Kamu sangatlah keren dan mahasigma +10000000 Aura");
             
