@@ -8,9 +8,11 @@ public class Gabut2 {
 
         System.out.print("Apakah kamu anak ILKOM? (Ketik 1 jika iya, 2 jika bukan): ");
         Input = in.nextInt();
-        if (Input <= 1) { System.out.println("Kamu sangatlah keren dan mahasigma +10000000 Aura");
+        if (Input == 1) { System.out.println("Kamu sangatlah keren dan mahasigma +10000000 Aura");
             
-        } else { System.out.println("Kurang keren -10000 Aura");
+        } 
+
+        if (Input == 2) { System.out.println("Kamu kurang keren -1000 aura");
             
         }
     }  
